@@ -1,0 +1,22 @@
+body {
+    background-image: url(puzzle.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-size: cover;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+}
+.level{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    font-style: italic;
+}
+h1{
+    text-shadow: 2px 2px white;
+}
